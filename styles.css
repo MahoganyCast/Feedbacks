@@ -1,14 +1,10 @@
-.heading{
-    color: rgb(246,44,159);
-}
-#texto1{
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 .cuadrito{
     background-color: rgb(254,127,190);
     border: 7px outset rgb(253,108,158);
     border-radius: 15px;
-    font-style: oblique;
+    font-family: 'Dancing Script', cursive;
     height: 150px;
     margin: 30px;
     outline: solid;
