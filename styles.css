@@ -1,0 +1,20 @@
+.heading{
+    color: rgb(246,44,159);
+}
+#texto1{
+    text-align: center;
+}
+.cuadrito{
+    background-color: rgb(254,127,190);
+    border: 7px outset rgb(253,108,158);
+    border-radius: 15px;
+    font-style: oblique;
+    height: 150px;
+    margin: 30px;
+    outline: solid;
+    outline-color: rgb(245,0,135);
+    outline-width: 5px;
+    outline-style: double;
+    padding: 50px;
+    width: 100px;
+}
