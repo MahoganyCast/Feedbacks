@@ -1,20 +1,39 @@
-.heading{
-    color: rgb(246,44,159);
-}
-#texto1{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
 }
 .cuadrito{
     background-color: rgb(254,127,190);
+    color:brown;
     border: 7px outset rgb(253,108,158);
-    border-radius: 15px;
-    font-style: oblique;
-    height: 150px;
-    margin: 30px;
+    border-radius: 50%;
+    font-family: 'Silkscreen', cursive;
+    margin: 30px auto 0px auto;
     outline: solid;
     outline-color: rgb(245,0,135);
     outline-width: 5px;
     outline-style: double;
     padding: 50px;
-    width: 100px;
+    text-align:justify;
+    width: 300px;
+}
+
+.cuadrito h3{
+    font-size: 20px;
+    font-weight:100;
+}
+
+.cuadrito p{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.title{
+    color: blue;
+}
+
+.content{
+    color:inherit;
 }
