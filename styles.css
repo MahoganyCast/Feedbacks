@@ -1,16 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
 
-.cuadrito{
+.child{
+    background-color: white;
+}
+
+.title{
+    color: black;
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-size: xx-large;
+}
+
+.content{
     background-color: rgb(254,127,190);
     border: 7px outset rgb(253,108,158);
     border-radius: 15px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Abel', sans-serif;
+    font-size: x-large;
     height: 150px;
-    margin: 30px;
+    margin: auto;
     outline: solid;
     outline-color: rgb(245,0,135);
     outline-width: 5px;
     outline-style: double;
-    padding: 50px;
-    width: 100px;
+    text-align: justify;
 }
